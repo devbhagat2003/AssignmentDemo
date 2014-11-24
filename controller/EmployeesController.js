@@ -72,7 +72,7 @@
                             // debugger;
                             storage.splice(i, 1);
                             localStorage.setItem('emp', JSON.stringify(storage));
-                            window.location.href = '../start.html';
+                            window.location.href = 'start.html';
                         }
                     } catch (e) {
                         console.log('exception ' + e);
